@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+.fullpage{
+    background-color: #F2F4F7;
+}
+
+
+.game-title{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 60px;
+}
+
+
+.detail-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.card-details{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    height: 250px;
+    width: 350px;
+    border: 5px solid white;
+    box-shadow: 5px 10px 8px #888888;;
+    border-radius: 10px;
+    
+}
+
+.card-details div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.justpad{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+
+.card-details div div{
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-details button{
+    width: fit-content;
+    margin-top: 15px;
+    margin-left: 100px;
+    font-size: 35px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+.desc-div{
+    margin-top: 100px;
+    margin-left: 15px;
+}
+
+
+.actualdesc{
+    margin-bottom: 80px;
+}
+
+
+.feedback-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 580px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+
+.feedback-area{
+    margin-top: 50px;
+    margin-left: 330px;
+    width: 700px;
+}
+
+
+.cardimg{
+    width: 600px;
+    height: 400px;
+}

@@ -1,0 +1,16 @@
+.showoff{
+    background-image: url("/public/images/gamersbg.png");
+    height: 100vh;
+}
+
+.showoff textarea{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.startbutton{
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+}
