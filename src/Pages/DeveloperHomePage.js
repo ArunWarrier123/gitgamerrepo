@@ -21,7 +21,7 @@ function DeveloperHomePage(props) {
     return<>
         <NavBar myname={location.state.nameofcurruser} myrole={location.state.nameofrole}/>
     < DeveloperHomeDiv
-      text1="WHAT FOR" text2="START CREATING NOW" subtext="Create tests of different types for users to playtest and provide feedback on."
+      text1="suii" text2="START CREATING NOW" subtext="Create tests of different types for users to playtest and provide feedback on."
       />
       {/* <div>{props.nameofcurruser}</div> */}
       
