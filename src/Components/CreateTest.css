@@ -1,0 +1,62 @@
+.maindiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.formdetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 380px;
+
+}
+
+.form-field{
+display: flex;
+flex-direction: row;
+margin-bottom: 20px;
+align-items: center;
+}
+
+.form-field label{
+    width: 100px;
+}
+
+.form-field input{
+    margin-left: 100px;
+}
+
+
+.form-fieldwithlabel{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;  
+    margin-left: 30px; 
+}
+
+.form-fieldwithlabel textarea{
+    margin-left: 110px;
+}
+
+.form-fieldwithlabel label{
+    margin-left: 10px;
+}
+
+.form-fieldimage{
+    display: flex;
+flex-direction: row;
+margin-bottom: 20px;
+align-items: center;
+margin-left: 100px;
+}
+
+.form-fieldimage label{
+    margin-right: 60px;
+}
+
+.submit-button{
+    align-self: center;
+    
+}

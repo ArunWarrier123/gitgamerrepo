@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { Routes,BrowserRouter as Router, Route } from "react-router-dom";
+import CreateTestPage from "./Pages/CreateTestPage";
+import Login from "./Pages/Login";
+import DeveloperHomePage from "./Pages/DeveloperHomePage";
+import CreateAccount from "./Pages/CreateAccount";
+import GamePage from "./Pages/GamePage";
+import TesterHomePage from "./Pages/TesterHomePage";
+import BrowseProductPage from "./Pages/BrowseProductPage";
+import FetchTest from "./Components/FetchTest";
 function App() {
+  // const [curusername,setcurrsername] = useContext(usernamecontext);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <>
+
+    <Router>
+      <Routes>
+        {/* <usernamecontext.Provider> */}
+        <Route path="/" element={<Login/>}/>
+        <Route path="/createaccount" element={<CreateAccount/>}/>
+        <Route path="/devhome" element={<DeveloperHomePage/>}/>
+        <Route path="/createtest" element={<CreateTestPage/>}/>
+        <Route path="/productpage" element={<GamePage/>}/>
+        <Route path="/testerhome" element={<TesterHomePage/>}/>
+        <Route path="/browsepage" element={<BrowseProductPage/>}/>
+
+
+        {/* </usernamecontext.Provider> */}
+      </Routes>
+    </Router>
+    </>
   );
 }
 

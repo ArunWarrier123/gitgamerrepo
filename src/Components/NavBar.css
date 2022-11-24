@@ -1,0 +1,39 @@
+
+
+
+.nav-link {
+    color: grey;
+  }
+  
+  .nav-item {
+    padding: 0px 10px;
+  }
+  
+  .nameofsite{
+    color: #61dafb;
+    padding-left: 80px;
+  }
+  
+  .sections{
+    margin-left: 210px;
+  }
+  
+  .nameofsection{
+    color: white;
+    margin-right: 100px;
+  }
+
+.signup{
+  margin-left: 300px;
+  width: 100px;
+  
+}  
+
+
+
+.status{
+  display: flex;
+  flex-direction: column;
+  margin-left: 350px;
+  color: white;
+}
