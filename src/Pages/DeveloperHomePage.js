@@ -21,7 +21,7 @@ function DeveloperHomePage(props) {
     return<>
         <NavBar myname={location.state.nameofcurruser} myrole={location.state.nameofrole}/>
     < DeveloperHomeDiv img_link="/images/div2.png" 
-      text1="WHAT ARE YOU WAITING FOR" text2="START CREATING NOW" subtext="Create tests of different types for users to playtest and provide feedback on."
+      text1="SUii" text2="START CREATING NOW" subtext="Create tests of different types for users to playtest and provide feedback on."
       />
       {/* <div>{props.nameofcurruser}</div> */}
       
