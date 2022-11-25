@@ -13,7 +13,7 @@ const {
 describe('Login with correct credentials',() =>{
 
   test('signInwithemailpassword should login with correct credential',async () => { 
-    const user = await signInWithEmailAndPassword(auth,'arunwarrier14@gmail.com','123456');
+    const user = await signInWithEmailAndPassword(auth,'arunwarrier@gmail.com','123456');
     expect(user.user).toBeTruthy();
   })
 })
