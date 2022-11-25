@@ -150,6 +150,8 @@ function CreateTestPage(props) {
     UploadGame(productscollectionref,gamedescription,gameduration,gamerewards,gametestcases,gametitle,finalimageurl,
       finalgameurlinstring,location.state.emailuser)
     }, 20000);
+    alert("Gmae Uploaded");
+    // setTimeout(,alert("Gmae Uploaded"));
 
 
     addDoc((productscollectionref),
@@ -162,6 +164,7 @@ function CreateTestPage(props) {
         gamelink: finalgameurlinstring,
         gamedev: location.state.emailuser
       })
+
     gobacktohome();
 
   };
